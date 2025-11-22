@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Account System</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏦 Bank Account System</h1>
+        
+        <div class="balance-box">
+            <p>Current Balance</p>
+            <h2>$<span id="balance">0.00</span></h2>
+        </div>
+        
+        <input type="number" id="amount" placeholder="Enter amount">
+        
+        <div class="buttons">
+            <button class="deposit" onclick="deposit()">Deposit</button>
+            <button class="withdraw" onclick="withdraw()">Withdraw</button>
+        </div>
+        
+        <div id="message"></div>
+    </div>
+
+    <script src="/Java script.js"></script>
+</body>
+</html>
